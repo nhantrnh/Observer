@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Portal
+  - Portal 1
+  - Portal 2
+  - Portal 3
+  - Paper
+  - HeadHitbox
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MapUI
+    uniqueID: 1727763613
+    locked: 0
+  - name: UIDamage
+    uniqueID: 3996592493
+    locked: 0
+  - name: MainChar
+    uniqueID: 3653145931
+    locked: 0
+  - name: Collectible
+    uniqueID: 4033618773
+    locked: 0
+  - name: Text
+    uniqueID: 2520265121
+    locked: 0
+  m_RenderingLayers:
+  - Default
