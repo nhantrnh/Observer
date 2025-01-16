@@ -35,10 +35,12 @@ public class MainController : MonoBehaviour
     public Sprite lostHeart;
 
     // //SFX:
-    // public AudioSource runAudio;
-    // public AudioSource jumpAudio;
-    // public AudioSource healAudio;
-    // public AudioSource hurtAudio;
+    private AudioSource mainSfx;
+    public AudioClip runClip, jumpClip, healClip, hurtClip;
+
+    //For footstep
+    public float stepRate = 0.3f;
+	public float stepCoolDown;
 
 
     void Start()
@@ -55,6 +57,9 @@ public class MainController : MonoBehaviour
 
         currentHp = healthPoint;
         animator.SetInteger("HP", currentHp);
+        
+        mainSfx = GetComponent<AudioSource>();
+
            
     }
 
@@ -90,11 +95,16 @@ public class MainController : MonoBehaviour
         }
     
         
+        //Run audio
         if (move != Vector3.zero) {
             transform.Translate(move, Space.World);
-            // if (runAudio != null) {
-            //     runAudio.Play();
-            // }
+            //footstep calculate
+            stepCoolDown -= Time.deltaTime;
+            if ((Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f) && stepCoolDown < 0f && isGrounded){
+                mainSfx.pitch = 1f + UnityEngine.Random.Range (-0.2f, 0.2f);
+                mainSfx.PlayOneShot (runClip, 3.0f);
+                stepCoolDown = stepRate;
+		    }
         }
 
         //If immortal
@@ -118,6 +128,7 @@ public class MainController : MonoBehaviour
 
         // Đăng ký các hành động từ Action Map "Player"
         controller.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
+
         controller.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         controller.Player.Jump.performed += ctx => {
             if (isGrounded && rb.linearVelocityY >=0) {
@@ -161,6 +172,13 @@ public class MainController : MonoBehaviour
             Debug.Log("Paper:" + paper.GetPaperContent());
             Destroy(collision.gameObject);
         }
+
+        //Death Border
+        if (collision.gameObject.CompareTag("Border")){
+            Debug.Log("Death");
+            //Show "You died" UI here.
+            
+        }
         
     }
 
@@ -172,9 +190,9 @@ public class MainController : MonoBehaviour
         isGrounded = false;
         animator.SetBool("isJumping", !isGrounded);
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        // if (jumpAudio != null) {
-        //     jumpAudio.Play();
-        // }
+        if (jumpClip != null) {
+            mainSfx.PlayOneShot(jumpClip);
+        }
         
     }
 
@@ -199,11 +217,16 @@ public class MainController : MonoBehaviour
             isImmortal = true;
             timer = immortalDuration;
 
-            // PlayAudio(playerHit);
+            if (hurtClip != null){
+                mainSfx.PlayOneShot(hurtClip);
+            }
         }
         if (value > 0) {
             //Already equal max
             if (currentHp == healthPoint) return; 
+                if (healClip != null){
+                mainSfx.PlayOneShot(healClip);
+            }
         }
       
         //Calculate

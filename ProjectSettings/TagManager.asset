@@ -11,6 +11,7 @@ TagManager:
   - Portal 3
   - Paper
   - HeadHitbox
+  - Border
   layers:
   - Default
   - TransparentFX
