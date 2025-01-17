@@ -169,10 +169,7 @@ public class MainController : MonoBehaviour, IDataPersistence
         //Papers
         if (collision.gameObject.CompareTag("Paper")){
             PaperShake paper = collision.gameObject.GetComponent<PaperShake>();
-            Debug.Log("Paper:" + paper.GetPaperContent());
             paper.SetCollected(true);
-        
-            Destroy(collision.gameObject);
         }
 
         //Death Border

@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 29ac1d5e-f608-4674-9ddd-17ba730446c5
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -5771,6 +5775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 1dd66c5e-45ec-480c-b63e-7647e835532f
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -8041,6 +8049,10 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: d2c726c1-4fe0-4239-b6bc-630f43beab89
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (1)
@@ -8761,6 +8773,10 @@ PrefabInstance:
       propertyPath: id
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 247cdda8-2198-4049-aed1-cd64ea66316f
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (6)
@@ -9320,6 +9336,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: b8006788-8598-46e4-a75f-5e187e0f0c5c
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -78201,6 +78221,10 @@ PrefabInstance:
       propertyPath: id
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 03094a4b-c596-4f48-88d6-1546300b84a3
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (8)
@@ -82393,6 +82417,10 @@ PrefabInstance:
       propertyPath: id
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 99308dc0-5abb-4a4f-8574-317760ccd8b6
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (7)
@@ -84573,6 +84601,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 4559690d-9442-40eb-ad34-2fb0c8d3df7d
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -89938,6 +89970,10 @@ PrefabInstance:
       propertyPath: id
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 8e75b7b0-f7ac-4d8c-b6ae-c8bb521cd752
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (4)
@@ -90693,6 +90729,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 83870da1-e300-4c16-887e-a6acc687a899
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -95392,7 +95432,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.49, y: -10.3392, z: -10}
-  m_LocalScale: {x: 1000, y: 0.9384, z: 1}
+  m_LocalScale: {x: 1001, y: 0.9384, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -95485,6 +95525,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 88e29f45-13c4-48df-8ad1-5a8a0e7e4cf1
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -97965,6 +98009,10 @@ PrefabInstance:
       propertyPath: id
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 239c1dc3-6c1e-4e71-99f3-71669dde25d7
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (3)
@@ -98843,6 +98891,10 @@ PrefabInstance:
       propertyPath: id
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: a134f12d-c8c9-4f61-8e33-a1a14aa39079
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (2)
@@ -98915,6 +98967,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: c5ad64bf-8161-4c19-860b-f5c3daa4c6fa
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -101024,6 +101080,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: c93df499-4099-4b19-a70b-4805d2db4b65
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -103568,6 +103628,14 @@ PrefabInstance:
     - target: {fileID: -7860513566511193148, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 601e604d-0453-4a54-afa3-6914a29f6676
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name

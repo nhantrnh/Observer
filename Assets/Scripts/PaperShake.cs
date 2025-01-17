@@ -7,8 +7,6 @@ public class PaperShake : MonoBehaviour, IDataPersistence
     private void GenerateGuid(){
         uid = System.Guid.NewGuid().ToString();
     }
-
-
     private bool collected = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +19,11 @@ public class PaperShake : MonoBehaviour, IDataPersistence
     public int id;
     private string paperContent;
 
+    private SpriteRenderer visual;
+
+    void Awake(){
+        visual = gameObject.GetComponent<SpriteRenderer>();
+    }
     void Start()
     {   
         if (PaperContents.paperContents.Length > id) {
@@ -51,13 +54,19 @@ public class PaperShake : MonoBehaviour, IDataPersistence
 
     public void SetCollected(bool value){
         collected = value;
+        visual.gameObject.SetActive(false);
     }
 
     public void LoadData(GameData data)
     {
         data.paperCollected.TryGetValue(uid, out collected); 
         if (collected){
-            Destroy(gameObject);
+            if (gameObject != null) {
+                visual.gameObject.SetActive(false);
+            } 
+        }
+        else {
+            visual.gameObject.SetActive(true);
         }
     }
 
@@ -68,4 +77,5 @@ public class PaperShake : MonoBehaviour, IDataPersistence
         }
         data.paperCollected.Add(uid, collected);
     }
+
 }
