@@ -3,7 +3,7 @@ using main_isa;
 using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class MainController : MonoBehaviour
+public class MainController : MonoBehaviour, IDataPersistence
 {
     public float speed = 5.0f;
     public float jumpForce = 7.0f;
@@ -34,11 +34,13 @@ public class MainController : MonoBehaviour
     public Sprite fullHeart;
     public Sprite lostHeart;
 
-    // //SFX:
-    // public AudioSource runAudio;
-    // public AudioSource jumpAudio;
-    // public AudioSource healAudio;
-    // public AudioSource hurtAudio;
+    // SFX
+    private AudioSource mainSfx;
+    public AudioClip runClip, jumpClip, healClip, hurtClip;
+
+    //For footstep
+    public float stepRate = 0.3f;
+    public float stepCoolDown;
 
     private float speedBoostDuration = 3f; // Thời gian tăng tốc
     private float speedBoostTimer = 0f; // Bộ đếm thời gian của hiệu ứng tăng tốc
@@ -64,7 +66,8 @@ public class MainController : MonoBehaviour
 
         currentHp = healthPoint;
         animator.SetInteger("HP", currentHp);
-           
+
+        mainSfx = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -111,13 +114,21 @@ public class MainController : MonoBehaviour
             isLookingLeft = false;
             transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
         }
-    
-        
-        if (move != Vector3.zero) {
+
+
+
+        // Run audio
+        if (move != Vector3.zero)
+        {
             transform.Translate(move, Space.World);
-            // if (runAudio != null) {
-            //     runAudio.Play();
-            // }
+            //footstep calculate
+            stepCoolDown -= Time.deltaTime;
+            if ((Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f) && stepCoolDown < 0f && isGrounded)
+            {
+                mainSfx.pitch = 1f + UnityEngine.Random.Range(-0.2f, 0.2f);
+                mainSfx.PlayOneShot(runClip, 3.0f);
+                stepCoolDown = stepRate;
+            }
         }
 
         //If immortal
@@ -250,11 +261,19 @@ public class MainController : MonoBehaviour
             isImmortal = true;
             timer = immortalDuration;
 
-            // PlayAudio(playerHit);
+            //hurt
+            if (hurtClip != null)
+            {
+                mainSfx.PlayOneShot(hurtClip);
+            }
         }
         if (value > 0) {
-            //Already equal max
-            if (currentHp == healthPoint) return; 
+            //heal
+            if (currentHp == healthPoint) return;
+            if (healClip != null)
+            {
+                mainSfx.PlayOneShot(healClip);
+            }
         }
       
         //Calculate
@@ -290,4 +309,17 @@ public class MainController : MonoBehaviour
         jumpForce = originalJumpForce; // Trở lại giá trị jumpForce gốc
     }
 
+    public void LoadData(GameData data)
+    {
+        //Set data
+        this.transform.position = data.playerPosition;
+        this.currentHp = data.healthPoint;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        //Set data
+        data.playerPosition = this.transform.position;
+        data.healthPoint = this.currentHp;
+    }
 }

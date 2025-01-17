@@ -69,14 +69,17 @@
     <Compile Include="Assets\Scripts\MainCharISA.cs" />
     <Compile Include="Assets\Scripts\ItemShake.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\Boss.cs" />
+    <Compile Include="Assets\Scripts\DataPersistence\IDataPersistence.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\BossHealth.cs" />
     <Compile Include="Assets\Scripts\SpikeController.cs" />
     <Compile Include="Assets\Scripts\shoeController.cs" />
     <Compile Include="Assets\Scripts\BackgroundMusicController.cs" />
+    <Compile Include="Assets\Scripts\DataPersistence\GameData.cs" />
     <Compile Include="Assets\Sprites\Slime\HitboxTrigger.cs" />
     <Compile Include="Assets\Scripts\MechBulletController.cs" />
     <Compile Include="Assets\HUD_Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\TravelPortalController.cs" />
+    <Compile Include="Assets\Scripts\DataPersistence\FileHandler.cs" />
     <Compile Include="Assets\Scripts\PaperShake.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\SummonMove.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\BossMove.cs" />
@@ -94,6 +97,8 @@
     <Compile Include="Assets\Scripts\ChatBubble.cs" />
     <Compile Include="Assets\Sprites\ChaosBoss\ChaosBossController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\DataPersistence\SerializableDictionary.cs" />
+    <Compile Include="Assets\Scripts\DataPersistence\DataPersistenceManager.cs" />
     <Compile Include="Assets\f.cs" />
     <Compile Include="Assets\Sprites\Slime\SlimeController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
