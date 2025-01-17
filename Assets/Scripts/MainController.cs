@@ -140,7 +140,6 @@ public class MainController : MonoBehaviour
         if (!isSpeedBoosted) // Kiểm tra xem có đang tăng tốc không
         {
             isSpeedBoosted = true;
-            isCooldownActive = true;
             speedBoostTimer = speedBoostDuration;
             speed += 3f; // Tăng tốc độ lên 1 đơn vị
             Debug.Log("Speed Boosted!");

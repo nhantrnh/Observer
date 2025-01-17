@@ -4,9 +4,9 @@ using UnityEngine;
 public class Boss01 : MonoBehaviour
 {
     private Animator animator;
-    private int health = 20;
+    private int health = 10;
     public float attackRange = 20f; // Khoảng cách tấn công
-    public float attackInterval = 1f; // Thời gian giữa các lần tấn công
+    public float attackInterval = 3f; // Thời gian giữa các lần tấn công
     private float attackTimer;
     private bool isPlayerInRange = false; // Kiểm tra xem nhân vật chính có trong phạm vi hay không
 
@@ -41,9 +41,6 @@ public class Boss01 : MonoBehaviour
         {
             // Kiểm tra khoảng cách giữa Boss và nhân vật chính
             float distanceToPlayer = Vector3.Distance(transform.position, mainController.transform.position);
-            // In distanceToPlayer to console
-            Debug.Log("Dis: " + distanceToPlayer);
-            Debug.Log("attackRange: " + attackRange);
 
             if (distanceToPlayer <= attackRange)
             {
@@ -54,6 +51,7 @@ public class Boss01 : MonoBehaviour
                 {
                     Attack(mainController);
                     attackTimer = attackInterval; // Reset timer sau mỗi lần tấn công
+                    animator.SetTrigger("Idle");
                 }
             }
             else
@@ -84,6 +82,16 @@ public class Boss01 : MonoBehaviour
         }
     }
 
+    public void FixedUpdate()
+    {
+        TakeDamage(1);
+    }
+
+    public void Fix()
+    {
+        Die();
+        Destroy(gameObject);
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
