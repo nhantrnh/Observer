@@ -419,7 +419,7 @@ Transform:
   m_GameObject: {fileID: 34685101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.16, y: 8.65, z: 1}
+  m_LocalPosition: {x: -6.09, y: 8.67, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4542,6 +4542,10 @@ PrefabInstance:
     - target: {fileID: 5329739337314542435, guid: 65d3b812295a3d04d86698a7d3e0364f, type: 3}
       propertyPath: m_Name
       value: PortalBackChaos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329739337314542435, guid: 65d3b812295a3d04d86698a7d3e0364f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5329739337314542435, guid: 65d3b812295a3d04d86698a7d3e0364f, type: 3}
       propertyPath: m_TagString
@@ -13423,6 +13427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 3970031}
   isFlipped: 1
+  Portal: {fileID: 1251559625}
 --- !u!114 &1519487889
 MonoBehaviour:
   m_ObjectHideFlags: 0

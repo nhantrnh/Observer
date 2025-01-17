@@ -6,6 +6,7 @@ public class Boss : MonoBehaviour
     public Transform player;
 
     public bool isFlipped = true;
+    public GameObject Portal;
 
     public void LookAtPlayer()
     {
@@ -29,5 +30,6 @@ public class Boss : MonoBehaviour
     public void Destroy()
     {
         Destroy(gameObject);
+        Portal.SetActive(true);
     }
 }
