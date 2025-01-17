@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class MainController : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float jumpForce = 5.0f;
+    public float jumpForce = 7.0f;
     public Rigidbody2D rb;
     public bool isLookingLeft = false;
     public bool isGrounded = true;
     public float regconizedSpeed;
-
+    private float currentHealth;
 
 
     private Vector2 moveInput;
@@ -40,10 +40,16 @@ public class MainController : MonoBehaviour
     // public AudioSource healAudio;
     // public AudioSource hurtAudio;
 
+    private float speedBoostDuration = 3f; // Thời gian tăng tốc
+    private float speedBoostTimer = 0f; // Bộ đếm thời gian của hiệu ứng tăng tốc
+    private bool isSpeedBoosted = false; // Kiểm tra xem nhân vật có đang được tăng tốc hay không
 
     void Start()
     {
          currentHp = healthPoint;
+         currentHealth = speedBoostDuration; // Khởi tạo cooldown đầy đủ
+         UICooldown.instance.Hide(); // Ẩn UI ban đầu
+         UICooldown.instance.SetValue(currentHealth / speedBoostDuration); // Cập nhật UI ban đầu
     }
 
     void Awake(){
@@ -61,11 +67,25 @@ public class MainController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         foreach(Image image in hearts) {
             image.sprite = lostHeart;
         }
         for (int i = 0; i < currentHp; i++) {
             hearts[i].sprite = fullHeart;
+        }
+
+        if (isSpeedBoosted)
+        {
+            speedBoostTimer -= Time.deltaTime;
+            UICooldown.instance.Show(); // Hiển thị thanh cooldown
+            currentHealth = Mathf.Clamp(currentHealth - Time.deltaTime, 0, speedBoostDuration);
+            UICooldown.instance.SetValue(currentHealth / speedBoostDuration);
+
+            if (speedBoostTimer <= 0f)
+            {
+                RemoveSpeedBoost();
+            }
         }
 
         if (currentHp == 0) {
@@ -106,6 +126,34 @@ public class MainController : MonoBehaviour
                 playerRenderer.enabled =true;
             }
         }
+    }
+
+    public void CollectionItem()
+    {
+        // Tăng tốc độ trong 3 giây
+        ApplySpeedBoost();
+    }
+
+    void ApplySpeedBoost()
+    {
+        if (!isSpeedBoosted) // Kiểm tra xem có đang tăng tốc không
+        {
+            isSpeedBoosted = true;
+            speedBoostTimer = speedBoostDuration;
+            speed += 3f; // Tăng tốc độ lên 1 đơn vị
+            Debug.Log("Speed Boosted!");
+        }
+
+    }
+
+    void RemoveSpeedBoost()
+    {
+        UICooldown.instance.SetValue(0); // Đặt UI thành rỗng
+        UICooldown.instance.Hide(); // Ẩn UI cooldown
+        currentHealth = speedBoostDuration; // Reset cooldown
+        isSpeedBoosted = false;
+        speed -= 3f; // Trở lại tốc độ ban đầu
+        Debug.Log("Speed Boost Ended!");
     }
 
     void FixedUpdate(){
