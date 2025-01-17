@@ -3,7 +3,7 @@ using main_isa;
 using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class MainController : MonoBehaviour
+public class MainController : MonoBehaviour, IDataPersistence
 {
     public float speed = 5.0f;
     public float jumpForce = 5.0f;
@@ -170,6 +170,8 @@ public class MainController : MonoBehaviour
         if (collision.gameObject.CompareTag("Paper")){
             PaperShake paper = collision.gameObject.GetComponent<PaperShake>();
             Debug.Log("Paper:" + paper.GetPaperContent());
+            paper.SetCollected(true);
+        
             Destroy(collision.gameObject);
         }
 
@@ -238,6 +240,7 @@ public class MainController : MonoBehaviour
         // HPBarController.instance.SetSize(currentHp*1.0f/hp);
         Debug.Log(animator.GetInteger("HP"));
     }
+
     public int HealthPoint{
         get {
             return currentHp;
@@ -245,6 +248,21 @@ public class MainController : MonoBehaviour
         set {
             ChangeHealthPoint(value);
         }
+    }
+
+    
+    public void LoadData(GameData data)
+    {
+        //Set data
+        this.transform.position = data.playerPosition;
+        this.currentHp = data.healthPoint;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        //Set data
+        data.playerPosition = this.transform.position;
+        data.healthPoint = this.currentHp;
     }
     
    
