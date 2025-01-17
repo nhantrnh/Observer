@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\PaperShake.cs" />
     <Compile Include="Assets\Scripts\PaperContents.cs" />
     <Compile Include="Assets\Sprites\Boss01\Boss01.cs" />
+    <Compile Include="Assets\Sprites\UI\UICooldown.cs" />
     <Compile Include="Assets\Scripts\BookController.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
     <Compile Include="Assets\Scripts\ChatBubble.cs" />
