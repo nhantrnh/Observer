@@ -29,12 +29,26 @@ public class Projectile : MonoBehaviour
         {
             boss.TakeDamage(1);
         }
+        CheckHitBoss3(other);
         Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
+    }
+
+    private void CheckHitBoss3(Collider2D collision)
+    {
+        MechController controller = collision.GetComponent<MechController>();
+        if (controller != null)
+        {
+            if (controller.currentHp > 0)
+            {
+                controller.ChangeHealthPoint(-1);
+            }
+
+        }
     }
 
 }

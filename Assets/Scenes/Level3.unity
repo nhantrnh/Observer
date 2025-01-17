@@ -511,7 +511,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1644599611230206104, guid: f93a5a807499a35498ca5955be6005d0, type: 3}
   targetObject: {fileID: 617246731}
   healthPoint: 70
-  currentHp: 70
+  currentHp: 4
   bulletHeightOffset: 1
 --- !u!61 &62640150
 BoxCollider2D:
@@ -1779,7 +1779,7 @@ Transform:
   m_GameObject: {fileID: 275388168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.55, y: -3.31, z: 1}
+  m_LocalPosition: {x: 33.4, y: -3, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

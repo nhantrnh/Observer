@@ -94,10 +94,40 @@ public class MechController : MonoBehaviour
 
     void Shoot()
     {
-        Vector3 bulletStartPosition = new Vector3(transform.position.x, transform.position.y + bulletHeightOffset, transform.position.z);
-        GameObject bullet = Instantiate(bulletPrefab, bulletStartPosition, Quaternion.identity);
-        bullet.transform.localScale = new Vector3(movingRight ? 1 : -1, 1, 1); // Đảo chiều nếu cần
+        // Sinh ngẫu nhiên góc cho viên đạn trung tâm trong khoảng (20, 160)
+        float centralAngle = UnityEngine.Random.Range(20f, 160f);
+
+        // Tính các góc cho 5 viên đạn xung quanh viên đạn trung tâm, với khoảng cách đều
+        float spread = 20f; // Góc giữa các viên đạn
+        float[] angles = {
+            centralAngle - 2 * spread,
+            centralAngle - spread,
+            centralAngle,
+            centralAngle + spread,
+            centralAngle + 2 * spread
+        };
+
+        foreach (float angle in angles)
+        {
+            // Tính toán hướng dựa trên góc
+            Vector3 direction = Quaternion.Euler(0, 0, movingRight ? angle : -angle) * Vector3.right;
+
+            // Tạo vị trí bắt đầu cho viên đạn
+            Vector3 bulletStartPosition = new Vector3(transform.position.x, transform.position.y + bulletHeightOffset, transform.position.z);
+
+            // Tạo viên đạn và thiết lập hướng
+            GameObject bullet = Instantiate(bulletPrefab, bulletStartPosition, Quaternion.identity);
+            MechBulletController bulletController = bullet.GetComponent<MechBulletController>();
+            if (bulletController != null)
+            {
+                bulletController.SetDirection(direction); // Truyền hướng cho viên đạn
+            }
+
+            // Đảo chiều sprite của viên đạn nếu cần
+            bullet.transform.localScale = new Vector3(movingRight ? 1 : -1, 1, 1);
+        }
     }
+
 
     private void OnTriggerStay2D(Collider2D collider)
     {
@@ -133,6 +163,13 @@ public class MechController : MonoBehaviour
             {
                 targetCollider.isTrigger = true; // Biến collider thành trigger
             }
+        }
+
+        // Giảm opacity của vật thể
+        SpriteRenderer spriteRenderer = targetObject.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = new Color32(255, 255, 255, 128);
         }
     }
 

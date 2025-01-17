@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Studies\\Unity\\Observer\\",
+  "WorkspaceRootPath": "D:\\CODING\\_GAME_\\Observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game_\\observer\\assets\\scripts\\mechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game_\\observer\\assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\datapersistence\\datapersistencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datapersistence\\datapersistencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game_\\observer\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\hud_assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\level2boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\My Studies\\Unity\\Observer\\Assets\\shoeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\shoeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game_\\observer\\assets\\scripts\\mechbulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechbulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,91 +29,67 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataPersistenceManager.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DataPersistence\\DataPersistenceManager.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAADgv0wAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T14:06:38.898Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T13:48:06.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "shoeController.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\shoeController.cs",
-              "RelativeDocumentMoniker": "Assets\\shoeController.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\shoeController.cs",
-              "RelativeToolTip": "Assets\\shoeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:31:29.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemShake.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemShake.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemShake.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:25:19.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HealthPotionController.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPotionController.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HealthPotionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:24:01.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainController.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainController.cs",
-              "ViewState": "AgIAAAABAAAAAAAAAAAqwBMBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:02:48.669Z",
+              "WhenOpened": "2025-01-17T16:18:10.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MechBulletController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MechBulletController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MechBulletController.cs",
+              "ToolTip": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MechBulletController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MechBulletController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T13:28:44.605Z",
+              "WhenOpened": "2025-01-17T15:52:28.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MechController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MechController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MechController.cs",
+              "ToolTip": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MechController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MechController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwv6gAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T15:51:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainController.cs",
+              "ToolTip": "D:\\CODING\\_GAME_\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainController.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAuwDoBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:02:48.669Z",
               "EditorCaption": ""
             }
           ]

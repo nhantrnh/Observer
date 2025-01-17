@@ -301,10 +301,10 @@ public class MainController : MonoBehaviour, IDataPersistence
 
     private System.Collections.IEnumerator GainJumpForceCoroutine()
     {
-        float originalJumpForce = jumpForce; // Lưu giá trị jumpForce gốc
+        float originalJumpForce = 5.0f; // Lưu giá trị jumpForce gốc
         jumpForce = 14.0f; // Tăng jumpForce
 
-        yield return new WaitForSeconds(30f); // Chờ 30 giây
+        yield return new WaitForSeconds(7f); // Chờ 7 giây
 
         jumpForce = originalJumpForce; // Trở lại giá trị jumpForce gốc
     }
