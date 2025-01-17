@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\My Studies\\Unity\\Observer\\",
+  "WorkspaceRootPath": "D:\\CODING\\_GAME\\Observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\hud_assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\CODING\\_GAME\\Observer\\assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\hud_assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game\\observer\\assets\\scripts\\jumpitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\coding\\_game\\observer\\assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\CODING\\_GAME\\Observer\\assets\\scripts\\minimechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minimechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\CODING\\_GAME\\Observer\\assets\\scripts\\papercontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\papercontents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\CODING\\_GAME\\Observer\\assets\\scripts\\mechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\CODING\\_GAME\\Observer\\assets\\scripts\\papershake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\papershake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +38,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OptionsMenu.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\OptionsMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\OptionsMenu.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\OptionsMenu.cs",
-              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\OptionsMenu.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADgvywAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T07:19:21.67Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "JumpItemController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\JumpItemController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JumpItemController.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\JumpItemController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JumpItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T07:18:40.661Z",
+              "WhenOpened": "2025-01-17T11:08:17.614Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HealthPotionController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPotionController.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPotionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:47:03.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainController.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainController.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAiwOoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:41:52.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiniMechController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MiniMechController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniMechController.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MiniMechController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniMechController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:34:54.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MechController.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MechController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MechController.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\MechController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MechController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:01:27.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaperContents.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\PaperContents.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaperContents.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\PaperContents.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaperContents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:02:45.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaperShake.cs",
+              "DocumentMoniker": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\PaperShake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaperShake.cs",
+              "ToolTip": "D:\\CODING\\_GAME\\Observer\\Assets\\Scripts\\PaperShake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaperShake.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:58:25.583Z"
             }
           ]
         }

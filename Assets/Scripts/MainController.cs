@@ -161,7 +161,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Paper:" + paper.GetPaperContent());
             Destroy(collision.gameObject);
         }
-        
+
     }
 
 
@@ -175,7 +175,7 @@ public class MainController : MonoBehaviour
         // if (jumpAudio != null) {
         //     jumpAudio.Play();
         // }
-        
+
     }
 
     //Public -------------------------------------------------------------
@@ -223,6 +223,20 @@ public class MainController : MonoBehaviour
             ChangeHealthPoint(value);
         }
     }
-    
-   
+
+    public void GainJumpForce()
+    {
+        StartCoroutine(GainJumpForceCoroutine());
+    }
+
+    private System.Collections.IEnumerator GainJumpForceCoroutine()
+    {
+        float originalJumpForce = jumpForce; // Lưu giá trị jumpForce gốc
+        jumpForce = 14.0f; // Tăng jumpForce
+
+        yield return new WaitForSeconds(30f); // Chờ 30 giây
+
+        jumpForce = originalJumpForce; // Trở lại giá trị jumpForce gốc
+    }
+
 }

@@ -6,7 +6,6 @@ public class ChatBubble : MonoBehaviour
 {
     private SpriteRenderer backgroundSpriteRenderer;
     private TextMeshPro textMeshPro;
-    
 
     public void Create(string content, Transform parent, Vector3 localPosition){
         Transform transform = Instantiate(gameObject.transform, parent);
