@@ -46,6 +46,10 @@ public class MainController : MonoBehaviour, IDataPersistence
     private float speedBoostTimer = 0f; // Bộ đếm thời gian của hiệu ứng tăng tốc
     private bool isSpeedBoosted = false; // Kiểm tra xem nhân vật có đang được tăng tốc hay không
 
+    // Shiled Items Handle
+    private bool isShielded = false;
+    public GameObject Shield;
+
     void Start()
     {
          currentHp = healthPoint;
@@ -253,7 +257,7 @@ public class MainController : MonoBehaviour, IDataPersistence
 
     public void ChangeHealthPoint(int value){
         if (value < 0) {
-            if (isImmortal) return;
+            if (isImmortal || isShielded) return;
 
             // //Set hit.
             // animator.SetBool("Hit", true);
@@ -307,6 +311,20 @@ public class MainController : MonoBehaviour, IDataPersistence
         yield return new WaitForSeconds(7f); // Chờ 7 giây
 
         jumpForce = originalJumpForce; // Trở lại giá trị jumpForce gốc
+    }
+
+    public void ShieldUp()
+    {
+        Shield.SetActive(true);
+        isShielded = true;
+        Invoke("ShieldDown", 3f);
+
+    }
+
+    void ShieldDown()
+    {
+        Shield.GetComponent<Animator>().SetTrigger("Destroy");
+        isShielded = false;
     }
 
     public void LoadData(GameData data)
