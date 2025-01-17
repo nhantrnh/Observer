@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MainController : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float jumpForce = 5.0f;
+    public float jumpForce = 7.0f;
     public Rigidbody2D rb;
     public bool isLookingLeft = false;
     public bool isGrounded = true;
@@ -42,7 +42,6 @@ public class MainController : MonoBehaviour
 
     private float speedBoostDuration = 3f; // Thời gian tăng tốc
     private float speedBoostTimer = 0f; // Bộ đếm thời gian của hiệu ứng tăng tốc
-    private bool isCooldownActive = false;
     private bool isSpeedBoosted = false; // Kiểm tra xem nhân vật có đang được tăng tốc hay không
 
     void Start()
@@ -79,6 +78,9 @@ public class MainController : MonoBehaviour
         if (isSpeedBoosted)
         {
             speedBoostTimer -= Time.deltaTime;
+            UICooldown.instance.Show(); // Hiển thị thanh cooldown
+            currentHealth = Mathf.Clamp(currentHealth - Time.deltaTime, 0, speedBoostDuration);
+            UICooldown.instance.SetValue(currentHealth / speedBoostDuration);
 
             if (speedBoostTimer <= 0f)
             {
@@ -90,24 +92,6 @@ public class MainController : MonoBehaviour
             OnDisable();
             playerRenderer.enabled = true;
             isImmortal = false;
-        }
-
-        if (isCooldownActive)
-        {
-            // Giảm dần currentHealth theo thời gian
-            UICooldown.instance.Show(); // Hiển thị thanh cooldown
-            currentHealth = Mathf.Clamp(currentHealth - Time.deltaTime, 0, speedBoostDuration);
-            UICooldown.instance.SetValue(currentHealth / speedBoostDuration);
-            Debug.Log("cur: "+currentHealth);
-            Debug.Log("speed: "+ currentHealth/speedBoostDuration);
-
-
-
-            // Kiểm tra nếu cooldown đã hết
-            if (currentHealth <= 0)
-            {
-                EndCooldown();
-            }
         }
 
         move = new Vector3(moveInput.x, 0, 0)*speed*Time.deltaTime;
@@ -167,25 +151,12 @@ public class MainController : MonoBehaviour
     // Loại bỏ hiệu ứng tăng tốc sau khi hết thời gian
     void RemoveSpeedBoost()
     {
-        isSpeedBoosted = false;
-        speed -= 1f; // Trở lại tốc độ ban đầu
-        Debug.Log("Speed Boost Ended!");
-    }
-
-    public void StartCooldown()
-    {
-        isCooldownActive = true;
-        currentHealth = speedBoostDuration; // Reset cooldown
-        UICooldown.instance.Show(); // Hiển thị thanh cooldown
-        UICooldown.instance.SetValue(1); // Đặt UI thành đầy đủ
-    }
-
-    private void EndCooldown()
-    {
-        isCooldownActive = false;
         UICooldown.instance.SetValue(0); // Đặt UI thành rỗng
-       UICooldown.instance.Hide(); // Ẩn UI cooldown
-       currentHealth = speedBoostDuration; // Reset cooldown
+        UICooldown.instance.Hide(); // Ẩn UI cooldown
+        currentHealth = speedBoostDuration; // Reset cooldown
+        isSpeedBoosted = false;
+        speed -= 3f; // Trở lại tốc độ ban đầu
+        Debug.Log("Speed Boost Ended!");
     }
 
     void FixedUpdate(){

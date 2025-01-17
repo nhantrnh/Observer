@@ -18,15 +18,13 @@ public class UICooldown : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject); // Đảm bảo chỉ có một instance duy nhất
+            Destroy(gameObject);
         }
     }
 
     void Start()
     {
         originalSize = mask.rectTransform.rect.width;
-     //   cool.gameObject.SetActive(false); // Ẩn thanh cooldown khi bắt đầu
-       // Hide(); // Ẩn thanh cooldown khi bắt đầu
     }
 
     public void SetValue(float value)
