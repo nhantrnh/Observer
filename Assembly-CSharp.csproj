@@ -62,22 +62,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HUD_Assets\Scripts\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\Summon.cs" />
     <Compile Include="Assets\Scripts\BackgroundController.cs" />
     <Compile Include="Assets\Scripts\PlayerTouchGround.cs" />
     <Compile Include="Assets\Scripts\MainCharISA.cs" />
     <Compile Include="Assets\Scripts\ItemShake.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\Boss.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\BossHealth.cs" />
     <Compile Include="Assets\Scripts\SpikeController.cs" />
     <Compile Include="Assets\Scripts\BackgroundMusicController.cs" />
     <Compile Include="Assets\Sprites\Slime\HitboxTrigger.cs" />
     <Compile Include="Assets\HUD_Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\TravelPortalController.cs" />
     <Compile Include="Assets\Scripts\PaperShake.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\SummonMove.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\BossMove.cs" />
     <Compile Include="Assets\Scripts\PaperContents.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\BossTrigger.cs" />
+    <Compile Include="Assets\Scripts\Level2Boss\BossWeapon.cs" />
     <Compile Include="Assets\HUD_Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\BookController.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
     <Compile Include="Assets\Scripts\ChatBubble.cs" />
     <Compile Include="Assets\Sprites\ChaosBoss\ChaosBossController.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\f.cs" />
     <Compile Include="Assets\Sprites\Slime\SlimeController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
