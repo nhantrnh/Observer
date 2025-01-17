@@ -6,6 +6,6 @@ public static class PaperContents
         "0",
         "1",
         "Paper 3 content",
-        
+
     };
 }

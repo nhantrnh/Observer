@@ -466,7 +466,7 @@ MonoBehaviour:
   mainChar: {fileID: 1017740933}
   distance: 1
   isFlipped: 1
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 580255528598470936, guid: c1dbb04c6acb9f24197963cc44f07481, type: 3}
 --- !u!114 &159588948
 MonoBehaviour:
   m_ObjectHideFlags: 0

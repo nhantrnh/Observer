@@ -11,6 +11,8 @@ TagManager:
   - Portal 3
   - Paper
   - HeadHitbox
+  - MainController
+  - JumpItem
   layers:
   - Default
   - TransparentFX
