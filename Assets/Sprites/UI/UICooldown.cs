@@ -24,7 +24,7 @@ public class UICooldown : MonoBehaviour
 
     void Start()
     {
-        originalSize = mask.rectTransform.rect.width;
+        originalSize = cool.rectTransform.rect.width;
     }
 
     public void SetValue(float value)

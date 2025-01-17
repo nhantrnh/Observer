@@ -134,7 +134,6 @@ public class MainController : MonoBehaviour
         ApplySpeedBoost();
     }
 
-    // Tăng tốc độ khi nhặt giày
     void ApplySpeedBoost()
     {
         if (!isSpeedBoosted) // Kiểm tra xem có đang tăng tốc không
@@ -147,7 +146,6 @@ public class MainController : MonoBehaviour
 
     }
 
-    // Loại bỏ hiệu ứng tăng tốc sau khi hết thời gian
     void RemoveSpeedBoost()
     {
         UICooldown.instance.SetValue(0); // Đặt UI thành rỗng
