@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\PaperContents.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\BossTrigger.cs" />
     <Compile Include="Assets\Scripts\Level2Boss\BossWeapon.cs" />
+    <Compile Include="Assets\HUD_Assets\Scripts\GameOverMenu.cs" />
     <Compile Include="Assets\HUD_Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\BookController.cs" />
     <Compile Include="Assets\Scripts\MainController.cs" />
