@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "D:\\My Studies\\Unity\\Observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\hud_assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\hud_assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\spikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\spikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,11 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\BookController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BookController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\BookController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BookController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwEMAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:49:42.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shoeController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\shoeController.cs",
+              "RelativeDocumentMoniker": "Assets\\shoeController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\shoeController.cs",
+              "RelativeToolTip": "Assets\\shoeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:31:29.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemShake.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemShake.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemShake.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:25:19.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthPotionController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPotionController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPotionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:24:01.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAEwEoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:02:48.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SpikeController.cs",
               "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\SpikeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeController.cs",
@@ -34,12 +119,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SpikeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:17:03.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T09:17:03.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GameOverMenu.cs",
               "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
               "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
@@ -47,12 +131,11 @@
               "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T08:45:23.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T08:45:23.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
@@ -60,8 +143,7 @@
               "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T04:47:24.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T04:47:24.934Z"
             }
           ]
         }

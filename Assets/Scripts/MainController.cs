@@ -48,8 +48,11 @@ public class MainController : MonoBehaviour
     {
          currentHp = healthPoint;
          currentHealth = speedBoostDuration; // Khởi tạo cooldown đầy đủ
-         UICooldown.instance.Hide(); // Ẩn UI ban đầu
-         UICooldown.instance.SetValue(currentHealth / speedBoostDuration); // Cập nhật UI ban đầu
+        if (UICooldown.instance != null)
+        {
+            UICooldown.instance.Hide(); // Ẩn UI ban đầu
+            UICooldown.instance.SetValue(currentHealth / speedBoostDuration); // Cập nhật UI ban đầu
+        }
     }
 
     void Awake(){
