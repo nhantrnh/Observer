@@ -1,14 +1,16 @@
-﻿using System;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Boss01 : MonoBehaviour
 {
     private Animator animator;
     private int health = 10;
-    public float attackRange = 20f; // Khoảng cách tấn công
-    public float attackInterval = 3f; // Thời gian giữa các lần tấn công
+    public float attackRange = 5f; // Khoảng cách tấn công
+    public float attackInterval = 1f; // Thời gian giữa các lần tấn công
     private float attackTimer;
     private bool isPlayerInRange = false; // Kiểm tra xem nhân vật chính có trong phạm vi hay không
+    private int attackCount = 0; // Biến đếm số lần tấn công
 
     void Start()
     {
@@ -19,18 +21,14 @@ public class Boss01 : MonoBehaviour
 
     void Update()
     {
-        // Chỉ giảm attackTimer khi nhân vật chính đang trong phạm vi tấn công
         if (isPlayerInRange && attackTimer > 0f)
         {
             attackTimer -= Time.deltaTime;
-            animator.SetTrigger("Idle");
-
         }
 
-        // Nếu không có gì xảy ra (không tấn công và không bị tấn công), quay lại trạng thái Idle
         if (!isPlayerInRange && attackTimer > 0f)
         {
-            animator.SetTrigger("Idle"); // Trở về trạng thái Idle nếu không có gì xảy ra
+            animator.SetTrigger("Idle");
         }
     }
 
@@ -39,59 +37,86 @@ public class Boss01 : MonoBehaviour
         MainController mainController = collider.GetComponent<MainController>();
         if (mainController != null)
         {
-            // Kiểm tra khoảng cách giữa Boss và nhân vật chính
             float distanceToPlayer = Vector3.Distance(transform.position, mainController.transform.position);
 
             if (distanceToPlayer <= attackRange)
             {
                 isPlayerInRange = true;
 
-                // Nếu tấn công và timer đã hết
                 if (attackTimer <= 0f)
                 {
-                    Attack(mainController);
+                    PerformAction(mainController);
                     attackTimer = attackInterval; // Reset timer sau mỗi lần tấn công
-                    animator.SetTrigger("Idle");
                 }
             }
             else
             {
-                isPlayerInRange = false; // Nếu không trong phạm vi, trở lại trạng thái Idle
-                animator.SetTrigger("Idle");    
+                isPlayerInRange = false;
             }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        // Khi nhân vật chính ra khỏi phạm vi tấn công, dừng tấn công
         if (collider.GetComponent<MainController>())
         {
             isPlayerInRange = false;
-            animator.SetTrigger("Idle"); // Trở về trạng thái Idle khi không còn trong phạm vi
+            animator.SetTrigger("Idle");
+            animator.SetTrigger("Spell");
+            animator.SetTrigger("Attack");
+        }
+    }
+
+    void PerformAction(MainController mainController)
+    {
+        if (attackCount < 2)
+        {
+            Attack(mainController);
+            attackCount++;
+        }
+        else
+        {
+            Spell(mainController);
+            attackCount = 0; // Reset đếm sau khi sử dụng Spell
         }
     }
 
     void Attack(MainController mainController)
     {
         animator.SetTrigger("Attack");
-        // Giảm máu của nhân vật chính nếu họ còn sống
+        // Đợi animation attack hoàn thành và sau đó trừ máu
+        StartCoroutine(WaitForAttackAnimation(mainController));
+    }
+
+    void Spell(MainController mainController)
+    {
+        animator.SetTrigger("Spell");
+        // Đợi animation spell hoàn thành và sau đó trừ máu
+        StartCoroutine(WaitForSpellAnimation(mainController));
+    }
+
+    // Đợi animation attack hoàn thành rồi mới trừ máu
+    private IEnumerator WaitForAttackAnimation(MainController mainController)
+    {
+        // Kiểm tra thời gian animation
+        yield return new WaitForSeconds(0.5f);  // Giả sử animation Attack dài 0.5s
         if (mainController.HealthPoint > 0)
         {
-            mainController.ChangeHealthPoint(-1);
+            mainController.ChangeHealthPoint(-1);  // Trừ máu cho người chơi
         }
     }
 
-    public void FixedUpdate()
+    // Đợi animation spell hoàn thành rồi mới trừ máu
+    private IEnumerator WaitForSpellAnimation(MainController mainController)
     {
-        TakeDamage(1);
+        // Kiểm tra thời gian animation
+        yield return new WaitForSeconds(0.7f);  // Giả sử animation Spell dài 0.7s
+        if (mainController.HealthPoint > 0)
+        {
+            mainController.ChangeHealthPoint(-2);  // Trừ máu cho người chơi nhiều hơn cho spell
+        }
     }
 
-    public void Fix()
-    {
-        Die();
-        Destroy(gameObject);
-    }
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -108,6 +133,6 @@ public class Boss01 : MonoBehaviour
     void Die()
     {
         animator.SetTrigger("Death");
-        // Logic khi chết, như vô hiệu hóa collider, ngừng di chuyển, v.v.
+        Destroy(gameObject, 2f);
     }
 }
