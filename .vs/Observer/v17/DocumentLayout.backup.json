@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\My Studies\\Unity\\Observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\level2boss\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\level2boss\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\hud_assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\spikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\hud_assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\hud_assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\level2boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\level2boss\\bossmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bossmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\level2boss\\bossweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bossweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T04:47:24.934Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BossTrigger.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\BossTrigger.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "ItemShake.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemShake.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\ItemShake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemShake.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T04:45:36.929Z",
+              "WhenOpened": "2025-01-17T12:25:19.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\BookController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BookController.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\BookController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BookController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HealthPotionController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPotionController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\HealthPotionController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPotionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:24:27.647Z"
+              "WhenOpened": "2025-01-17T12:24:01.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Boss.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\Boss.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\Boss.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\Boss.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\Boss.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\MainController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAvwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:49:44.605Z",
+              "WhenOpened": "2025-01-17T12:02:48.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BossMove.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\BossMove.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossMove.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossMove.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDEAAAAFAAAAAAAAAA==",
+              "Title": "SpikeController.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\SpikeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeController.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\SpikeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:45:14.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BossWeapon.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossWeapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\BossWeapon.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossWeapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T18:21:45.335Z"
+              "WhenOpened": "2025-01-17T09:17:03.525Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossHealth.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAvwCMAAAAAAAAAAAAAAA==",
+              "Title": "GameOverMenu.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
+              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\GameOverMenu.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:43:01.632Z"
+              "WhenOpened": "2025-01-17T08:45:23.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "D:\\My Studies\\Unity\\Observer\\Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\HUD_Assets\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:47:24.934Z"
             }
           ]
         }

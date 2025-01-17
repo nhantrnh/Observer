@@ -22,15 +22,7 @@ public class ItemShake : MonoBehaviour
         transform.position = new Vector3(startPos.x, newY, startPos.z);
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        MainController controller = collider.GetComponent<MainController>();  // Sử dụng 'collider' thay vì 'collision'
-        if (controller != null)
-        {
-            controller.CollectionItem();  // Gọi hàm CollectionItem trong MainController
-            Destroy(gameObject);  // Xóa item sau khi nhặt
-        }
-    }
+
 
     
 }
