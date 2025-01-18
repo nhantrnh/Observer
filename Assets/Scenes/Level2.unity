@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 2122261975}
     - target: {fileID: 8651659695193033777, guid: 5aeeff7473946e242b8ac5593ee6db93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 359.33
       objectReference: {fileID: 0}
     - target: {fileID: 8651659695193033777, guid: 5aeeff7473946e242b8ac5593ee6db93, type: 3}
       propertyPath: m_LocalPosition.y
@@ -666,6 +666,10 @@ PrefabInstance:
     - target: {fileID: -7860513566511193148, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 8053eb4b-5220-48c8-ab54-589590a05598
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -1877,6 +1881,10 @@ PrefabInstance:
     - target: {fileID: -7860513566511193148, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 96bb85c0-ad44-4c13-ae62-281cabb53107
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -3347,6 +3355,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 64aaec20-f22f-4a3f-a472-651a42ce5be5
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page_0 (6)
@@ -3648,6 +3660,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: f9616ea3-9726-45af-878a-b4b6dc9373e0
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page_0 (5)
@@ -3888,6 +3904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 92c80dd4-9382-4b89-98dc-f5d421cf916a
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -4041,6 +4061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 48426399}
     m_Modifications:
+    - target: {fileID: 2064661747566079225, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
+      propertyPath: uid
+      value: febfd924-7ecc-4659-b9c6-94a5c2941191
+      objectReference: {fileID: 0}
     - target: {fileID: 3602937156257441711, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
       propertyPath: m_Name
       value: Shield Item (2)
@@ -4459,6 +4483,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: e35599dd-0eb4-499d-9fe9-499987234c76
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -5490,6 +5518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 9e7476f4-ad27-432c-8ce8-be4103a96e97
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -5830,6 +5862,10 @@ PrefabInstance:
     - target: {fileID: -7860513566511193148, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 9d853289-59da-48fb-b4bc-ffe0f87704ca
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -12438,6 +12474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 1be38009-f6a8-41d8-ae27-b114613976fa
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -13548,7 +13588,7 @@ MonoBehaviour:
   attackRange: 2.2
   attackMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 1024
 --- !u!114 &1519487890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22648,6 +22688,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: ce231f95-1f98-486b-ab5a-c88432223a2b
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page_0 (4)
@@ -23214,6 +23258,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 8f478eea-f7eb-4c6e-8737-da983e9ef5ef
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -24944,6 +24992,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 48426399}
     m_Modifications:
+    - target: {fileID: 2064661747566079225, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
+      propertyPath: uid
+      value: 903a60f0-d026-4bad-89fe-0e37119fc2b8
+      objectReference: {fileID: 0}
     - target: {fileID: 3602937156257441711, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
       propertyPath: m_Name
       value: Shield Item (1)
@@ -25622,6 +25674,10 @@ PrefabInstance:
     - target: {fileID: -7860513566511193148, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: f7b69cb7-f5cd-48d5-aa3d-9cd1b09fb218
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -84127,6 +84183,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 48426399}
     m_Modifications:
+    - target: {fileID: 2064661747566079225, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
+      propertyPath: uid
+      value: b10df296-b423-42fb-924f-c8a7883a632a
+      objectReference: {fileID: 0}
     - target: {fileID: 3602937156257441711, guid: 54f66c1cc4dc34548aa0427b052d1b29, type: 3}
       propertyPath: m_Name
       value: Shield Item

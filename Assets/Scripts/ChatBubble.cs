@@ -22,7 +22,7 @@ public class ChatBubble : MonoBehaviour
     }
 
     void Start(){
-        SetText(" \"Nội dung của trang sách bị thất lạc...\" ");
+        SetText(" \"Hãy nhặt những trang sách...\" ");
         // transform.Find("Background").GetComponent<SpriteRenderer>().enabled = false;
     }
     // Update is called once per frame

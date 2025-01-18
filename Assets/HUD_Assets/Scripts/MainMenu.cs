@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         DataPersistenceManager.instance.NewGame();
-        // SceneManager.LoadScene(1); //Scene 1 map 0
+        // SceneManager.LoadScene(1); //Scene 1 map 0`
     }
 
     public void QuitGame()
@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
+        DataPersistenceManager.isContinue = true;
         DataPersistenceManager.instance.LoadGame();
     }
 }

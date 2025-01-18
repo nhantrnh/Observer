@@ -17,7 +17,8 @@ public class DataPersistenceManager: MonoBehaviour {
     private GameData gameData;
     private FileHandler fileHandler;
     private List<IDataPersistence> dataPersistences;
-
+    
+    public static bool isContinue = false;
 
     private void Awake(){
         if (instance !=null) {
@@ -40,7 +41,11 @@ public class DataPersistenceManager: MonoBehaviour {
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         this.dataPersistences = FindAllDataPersistenceObjects();
-        
+        if (isContinue) {
+            LoadGame();
+            
+            isContinue = false;
+        }        
     }
 
     public void NewGame(){

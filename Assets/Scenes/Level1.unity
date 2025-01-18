@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 0944c264-f5ba-4559-8459-51c1dbca102b
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -379,6 +383,10 @@ PrefabInstance:
     - target: {fileID: 5988511844727122812, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
       propertyPath: m_SortingLayerID
       value: -261348523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: 5eaa3209-44ea-4abc-976e-c459b6dfb75f
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -641,6 +649,10 @@ PrefabInstance:
     - target: {fileID: 3840050630436684194, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: 5c86a5e6-ee5d-4359-b82d-dce5eab6d8d5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3044,7 +3056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3ced80c9ae99c4da1a6f7d068e0a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 0
+  duration: 2
 --- !u!95 &221223510
 Animator:
   serializedVersion: 7
@@ -3117,7 +3129,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0016591032, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3127,7 +3139,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.18, y: 0.32}
+  m_Size: {x: 0.030688472, y: 0.32}
   m_EdgeRadius: 0
 --- !u!1001 &231826037
 PrefabInstance:
@@ -5670,6 +5682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Potion
       objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 7a4948cc-0346-415b-93dc-4b822d3366a8
+      objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -6792,6 +6808,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: 0b0e6360-1029-4e37-8daa-fd75692e130f
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7657,6 +7677,10 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 8bd19417-dc7a-4a6e-b996-726ff0212dab
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (1)
@@ -8330,11 +8354,11 @@ PrefabInstance:
       objectReference: {fileID: -4075366832564009733, guid: c5ed4a19bd8eedd4c899d9ea52a06a7d, type: 3}
     - target: {fileID: 8651659695193033777, guid: 5aeeff7473946e242b8ac5593ee6db93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 683.3
+      value: 374.18
       objectReference: {fileID: 0}
     - target: {fileID: 8651659695193033777, guid: 5aeeff7473946e242b8ac5593ee6db93, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8651659695193033777, guid: 5aeeff7473946e242b8ac5593ee6db93, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8883,6 +8907,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 48e4e2ac-a3a5-47a4-bfd2-bf93609cc132
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -76991,6 +77019,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -261348523
       objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: e8f25dc9-2d88-4d00-b255-ccfa719e290c
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77604,6 +77636,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: a130571d-7e6c-4b18-88bb-7e50db3cd67c
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -81618,6 +81654,10 @@ PrefabInstance:
       propertyPath: id
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 2d9f9a1f-5255-4fe0-8af0-c9f834144880
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (7)
@@ -83811,6 +83851,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 299b1355-f753-4325-bc75-4e8a3141ffc0
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -89278,6 +89322,10 @@ PrefabInstance:
       propertyPath: id
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: c560c3bc-0bfd-4b73-a3de-b83b219b7e3e
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (4)
@@ -89954,6 +90002,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 29844749-2056-469b-a631-d0330c006dbe
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -92656,6 +92708,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -261348523
       objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: d3e223b5-97f8-403d-af93-de7e3931c446
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93092,6 +93148,10 @@ PrefabInstance:
     - target: {fileID: 5988511844727122812, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
       propertyPath: m_SortingLayerID
       value: -261348523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: 61d5a6c8-2a4d-470a-aea3-b13febcad5a2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -94603,6 +94663,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: 1ce9703a-adeb-48d3-9fa6-96dcd89a93d3
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -97085,6 +97149,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -261348523
       objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: c6a95289-a262-46bd-9f8e-0c4149e30a01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -97172,6 +97240,10 @@ PrefabInstance:
     - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: id
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 099c5058-7b96-4164-a636-fd23420339e5
       objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
@@ -97664,6 +97736,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -261348523
       objectReference: {fileID: 0}
+    - target: {fileID: 7703976241389824711, guid: 6d0bceee1b4420c4abeca4e951226fee, type: 3}
+      propertyPath: uid
+      value: 57406196-f1f4-481e-9650-4c0371b5d1ee
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -97906,7 +97982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329739337314542435, guid: 65d3b812295a3d04d86698a7d3e0364f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5329739337314542435, guid: 65d3b812295a3d04d86698a7d3e0364f, type: 3}
       propertyPath: m_TagString
@@ -98040,6 +98116,10 @@ PrefabInstance:
       propertyPath: id
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: b2d704b4-d690-4369-8685-bed757c0da55
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page (2)
@@ -98112,6 +98192,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: c324b9fa-c57f-4566-8544-c1c2191e6b83
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -100307,6 +100391,10 @@ PrefabInstance:
     - target: {fileID: 7706647268384010691, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_Name
       value: Red Potion (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830133661183777561, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
+      propertyPath: uid
+      value: ea71b094-5951-43eb-af1b-82819b289982
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalScale.x
@@ -102954,17 +103042,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -303690301485683452, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
+      propertyPath: uid
+      value: 1ed0b08e-be53-4b52-8f5d-95e21e2259f2
+      objectReference: {fileID: 0}
     - target: {fileID: 797615064037476628, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_Name
       value: page
       objectReference: {fileID: 0}
     - target: {fileID: 7842085947317466600, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.47
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 7842085947317466600, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 2.72
       objectReference: {fileID: 0}
     - target: {fileID: 7842085947317466600, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_LocalPosition.z

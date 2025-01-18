@@ -4,11 +4,14 @@ public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     private float lifeTime = 2f;
+    private AudioSource bulletSfx;
+    public AudioClip shoot;
 
     // Awake is called when the Projectile GameObject is instantiated
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        bulletSfx = GetComponent<AudioSource>();
         Destroy(gameObject, lifeTime);
     }
 
@@ -20,6 +23,9 @@ public class Projectile : MonoBehaviour
     public void Launch(Vector2 direction, float force)
     {
         rigidbody2d.AddForce(direction * force);
+        if (shoot != null) {
+            bulletSfx.PlayOneShot(shoot);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

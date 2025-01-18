@@ -1,7 +1,21 @@
 ﻿using UnityEngine;
 
-public class shoeController : MonoBehaviour
+public class shoeController : MonoBehaviour, IDataPersistence
 {
+
+    [SerializeField] private string uid;
+    [ContextMenu("Generated guid for id")]
+    private void GenerateGuid(){
+        uid = System.Guid.NewGuid().ToString();
+    }
+    private bool collected = false;
+    private SpriteRenderer visual;
+
+
+    void Awake(){
+        visual = gameObject.GetComponent<SpriteRenderer>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -9,7 +23,30 @@ public class shoeController : MonoBehaviour
         if (controller != null)
         {
             controller.CollectionItem();  // Gọi hàm CollectionItem trong MainController
-            Destroy(gameObject);  // Xóa item sau khi nhặt
+            collected = true;
+            visual.gameObject.SetActive(false);
         }
+    }
+
+    
+    public void LoadData(GameData data)
+    {
+        data.paperCollected.TryGetValue(uid, out collected); 
+        if (collected){
+            if (gameObject != null) {
+                visual.gameObject.SetActive(false);
+            } 
+        }
+        else {
+            visual.gameObject.SetActive(true);
+        }
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        if (data.paperCollected.ContainsKey(uid)){
+            data.paperCollected.Remove(uid);
+        }
+        data.paperCollected.Add(uid, collected);
     }
 }

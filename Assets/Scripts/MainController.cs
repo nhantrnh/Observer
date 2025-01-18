@@ -13,6 +13,8 @@ public class MainController : MonoBehaviour, IDataPersistence
     public float regconizedSpeed;
     private float currentHealth;
 
+    public Vector3 tempTransform;
+
 
     private Vector2 moveInput;
     private Vector3 move;
@@ -62,7 +64,6 @@ public class MainController : MonoBehaviour, IDataPersistence
     }
 
     void Awake(){
-
         controller = new MainCharISA();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -72,6 +73,24 @@ public class MainController : MonoBehaviour, IDataPersistence
         animator.SetInteger("HP", currentHp);
 
         mainSfx = GetComponent<AudioSource>();
+    }
+
+    //If map 0
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
+        if (scene.buildIndex == 1) {
+            if (tempTransform != null) {
+                transform.position = tempTransform;
+                transform.Translate(transform.position, Space.World);
+                Debug.Log("Got it");
+            }
+        }
+    }
+
+    public void OnSceneUnloaded(Scene scene){
+        if (scene.buildIndex == 1){
+            tempTransform = transform.position; 
+        }
+
     }
 
     // Update is called once per frame
@@ -181,6 +200,8 @@ public class MainController : MonoBehaviour, IDataPersistence
 
     void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
 
         // Đăng ký các hành động từ Action Map "Player"
         controller.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -196,6 +217,8 @@ public class MainController : MonoBehaviour, IDataPersistence
 
     void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneUnloaded -= OnSceneUnloaded;
         controller.Disable(); // Tắt input khi không sử dụng
     }
 
@@ -224,8 +247,7 @@ public class MainController : MonoBehaviour, IDataPersistence
         //Papers
         if (collision.gameObject.CompareTag("Paper")){
             PaperShake paper = collision.gameObject.GetComponent<PaperShake>();
-            Debug.Log("Paper:" + paper.GetPaperContent());
-            Destroy(collision.gameObject);
+            paper.SetCollected(true);
         }
 
     }
@@ -238,9 +260,6 @@ public class MainController : MonoBehaviour, IDataPersistence
         isGrounded = false;
         animator.SetBool("isJumping", !isGrounded);
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        // if (jumpAudio != null) {
-        //     jumpAudio.Play();
-        // }
 
     }
 
@@ -305,10 +324,10 @@ public class MainController : MonoBehaviour, IDataPersistence
 
     private System.Collections.IEnumerator GainJumpForceCoroutine()
     {
-        float originalJumpForce = 5.0f; // Lưu giá trị jumpForce gốc
+        float originalJumpForce = 10.0f; // Lưu giá trị jumpForce gốc
         jumpForce = 14.0f; // Tăng jumpForce
 
-        yield return new WaitForSeconds(7f); // Chờ 7 giây
+        yield return new WaitForSeconds(3f); // Chờ 7 giây
 
         jumpForce = originalJumpForce; // Trở lại giá trị jumpForce gốc
     }
