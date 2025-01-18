@@ -6,7 +6,9 @@ public class VictoryTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        VictoryUI.SetActive(true);
-
+        if (other.tag == "Player")
+        {
+             VictoryUI.SetActive(true);
+        }
     }
 }

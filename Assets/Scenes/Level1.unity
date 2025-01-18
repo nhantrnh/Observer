@@ -5562,7 +5562,7 @@ MonoBehaviour:
   attackRange: 3
   attackMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   player: {fileID: 436748908}
   isFlipped: 1
   Portal2: {fileID: 1764567497}
@@ -5700,11 +5700,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -324.8
+      value: -324.84
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.96
+      value: 22.19
       objectReference: {fileID: 0}
     - target: {fileID: 8125078166915477390, guid: 0db7964d1295a6044ac689c92a5d1598, type: 3}
       propertyPath: m_LocalPosition.z
@@ -103056,7 +103056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7842085947317466600, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.72
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 7842085947317466600, guid: 4fa30f3bbe1af9745ad131a8647406ee, type: 3}
       propertyPath: m_LocalPosition.z
