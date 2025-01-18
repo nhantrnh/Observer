@@ -25,11 +25,13 @@ public class Projectile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         BossHealth boss = other.GetComponent<BossHealth>();
+
         if (boss != null)
         {
             boss.TakeDamage(1);
         }
         CheckHitBoss3(other);
+        CheckHitBoss1(other);
         Destroy(gameObject);
     }
 
@@ -46,6 +48,19 @@ public class Projectile : MonoBehaviour
             if (controller.currentHp > 0)
             {
                 controller.ChangeHealthPoint(-1);
+            }
+
+        }
+    }
+
+        private void CheckHitBoss1(Collider2D collision)
+    {
+        Boss01 controller = collision.GetComponent<Boss01>();
+        if (controller != null)
+        {
+            if (controller.health > 0)
+            {
+                controller.TakeDamage(1);
             }
 
         }

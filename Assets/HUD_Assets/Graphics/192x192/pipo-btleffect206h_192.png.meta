@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pipo-btleffect206h_192_0: 4534657424021216941
+      pipo-btleffect206h_192_1: -9174056036381971008
+      pipo-btleffect206h_192_10: 960511146858176861
+      pipo-btleffect206h_192_11: 3355577899165054930
+      pipo-btleffect206h_192_12: -4719725336177970432
+      pipo-btleffect206h_192_13: 5830681812623933320
+      pipo-btleffect206h_192_14: -2042454170901164433
+      pipo-btleffect206h_192_2: 912312701037511084
+      pipo-btleffect206h_192_3: -4349111117887036580
+      pipo-btleffect206h_192_4: -8443568450991301330
+      pipo-btleffect206h_192_5: -6079171643963284414
+      pipo-btleffect206h_192_6: -3757666935026487323
+      pipo-btleffect206h_192_7: 253734023315910595
+      pipo-btleffect206h_192_8: -6220391003964013249
+      pipo-btleffect206h_192_9: -5173129504911516073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -659,7 +659,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pipo-btleffect208_192_0: 2211175244648064735
+      pipo-btleffect208_192_1: 4160117044317318562
+      pipo-btleffect208_192_10: 4380318680153539379
+      pipo-btleffect208_192_11: -4658603935152181439
+      pipo-btleffect208_192_12: -6205148364719170200
+      pipo-btleffect208_192_13: 5546853348938522118
+      pipo-btleffect208_192_14: -4955661606231974199
+      pipo-btleffect208_192_15: -6747636546927889856
+      pipo-btleffect208_192_16: 4750758679443468023
+      pipo-btleffect208_192_17: -1187472891409937022
+      pipo-btleffect208_192_18: 2408842461603261448
+      pipo-btleffect208_192_19: 6537323135084587986
+      pipo-btleffect208_192_2: 5313901202104540988
+      pipo-btleffect208_192_20: -1176439018698292785
+      pipo-btleffect208_192_21: -576583501117249909
+      pipo-btleffect208_192_3: 7880229109550846956
+      pipo-btleffect208_192_4: -5211751357459883508
+      pipo-btleffect208_192_5: 1546523248541864305
+      pipo-btleffect208_192_6: 5111965321099900167
+      pipo-btleffect208_192_7: 1014202741569514876
+      pipo-btleffect208_192_8: -1283958784428525084
+      pipo-btleffect208_192_9: -4425285700417668880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
