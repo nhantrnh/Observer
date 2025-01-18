@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\My Studies\\Unity\\Observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\victorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\victorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\my studies\\unity\\observer\\assets\\victorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\victorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|d:\\my studies\\unity\\observer\\assets\\scripts\\level2boss\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|D:\\My Studies\\Unity\\Observer\\assets\\scripts\\level2boss\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617E767-E0AF-8246-2D81-59D5C6C58CAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2boss\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level2Boss\\BossTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T01:50:07.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T01:50:07.787Z"
             },
             {
               "$type": "Document",
